@@ -48,3 +48,16 @@ a {
 a:hover {
     color: #4a2f27; /* Darker brown */
 }
+
+button {
+    background-color: #556b2f; /* Olive green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #6b8e23; /* Dark olive green */
+}
