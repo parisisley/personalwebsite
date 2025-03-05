@@ -1,12 +1,9 @@
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("Portfolio website loaded!");
-
-    document.querySelectorAll("a").forEach(link => {
-        link.addEventListener("click", (event) => {
-            const url = new URL(link.href, window.location.href);
-            if (url.origin !== window.location.origin) {
-                alert(`You are leaving this site to visit ${link.textContent}`);
-            }
-        });
-    });
-});
+// script.js
+function toggleServiceInfo(serviceNumber) {
+    const serviceInfo = document.getElementById(`service-info-${serviceNumber}`);
+    if (serviceInfo.style.display === "none" || serviceInfo.style.display === "") {
+        serviceInfo.style.display = "block"; // Show the info
+    } else {
+        serviceInfo.style.display = "none"; // Hide the info
+    }
+}
