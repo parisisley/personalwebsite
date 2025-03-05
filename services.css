@@ -1,42 +1,50 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
-}
-
-header {
-    background-color: #8b5e3b;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-section#services {
+/* services.css */
+#services {
     padding: 50px 20px;
+}
+
+h2 {
+    color: #4a3626; /* Deep brown for the heading */
+}
+
+.service-card {
+    background-color: #f1f8e9; /* Light greenish background */
+    border: 2px solid #388e3c; /* Dark green border */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
     text-align: center;
+    transition: transform 0.3s ease;
 }
 
-section#services ul {
-    list-style: none;
-    padding: 0;
-    font-size: 18px;
+.service-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
-section#services li {
-    margin: 15px 0;
+.service-info {
+    display: none; /* Initially hide the detailed info */
+    margin-top: 15px;
+    color: #333;
+    font-size: 16px;
+    text-align: left;
+}
+
+.service-button {
+    background-color: #81c784; /* Lighter green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.service-button:hover {
+    background-color: #66bb6a; /* Darker green on hover */
+}
+
+.service-card:hover .service-button {
+    background-color: #66bb6a; /* Change button color when card is hovered */
 }

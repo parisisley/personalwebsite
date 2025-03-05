@@ -6,11 +6,14 @@ body {
     background-color: #e2f2e4; /* Light green background */
     color: #2c4e1d; /* Deep green text */
     text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header Styles */
 header {
-    background-color: #4e773f; /* Forest green */
+    background-color: #81c784; /* Lighter green for the header */
     color: white;
     padding: 20px;
 }
@@ -37,16 +40,42 @@ nav ul li a:hover {
     color: #d4e157; /* Light lime green on hover */
 }
 
-/* Section Styles */
-section {
+/* About Me Section - Extend to Full Width */
+#about {
     padding: 50px 20px;
-    background-color: #a8d08d; /* Soft green background for sections */
-    color: #2c4e1d; /* Deep green text */
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    width: 100%; /* Extend to the full width */
+    text-align: left; /* Align text to the left */
+    box-sizing: border-box; /* Ensure padding is accounted for */
 }
 
+/* Section Headings */
 h2 {
     color: #3e6b2f; /* Darker green for headings */
     font-size: 30px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4e773f; /* Matching footer color */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto; /* Ensure footer stays at the bottom */
+}
+
+/* Link Styles */
+a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #388e3c; /* Dark green */
+    font-size: 18px;
+}
+
+a:hover {
+    color: #4caf50; /* Lighter green on hover */
 }
 
 /* Button Styles */
@@ -63,69 +92,4 @@ button {
 
 button:hover {
     background-color: #6b8e23; /* Dark olive green on hover */
-}
-
-/* Link Styles */
-a {
-    display: inline-block;
-    margin: 10px;
-    text-decoration: none;
-    color: #388e3c; /* Dark green */
-    font-size: 18px;
-}
-
-a:hover {
-    color: #4caf50; /* Lighter green on hover */
-}
-
-/* Footer Styles */
-footer {
-    background-color: #4e773f; /* Matching footer color */
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-/* Project List & Item Styles */
-.project-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-}
-
-.project-item {
-    padding: 20px;
-    background-color: #dce775; /* Light green background for project items */
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.project-item h3 {
-    color: #2c4e1d; /* Dark green heading */
-}
-
-.project-item a {
-    text-decoration: none;
-    color: #388e3c; /* Green link */
-}
-
-.project-item a:hover {
-    text-decoration: underline;
-}
-
-/* Form Element Styles */
-form input, form textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #8bc34a; /* Light green border */
-    border-radius: 5px;
-    background-color: #f1f8e9; /* Very light green background */
-}
-
-form button {
-    background-color: #4caf50; /* Vibrant green for the button */
-}
-
-form button:hover {
-    background-color: #388e3c; /* Darker green for hover */
 }
