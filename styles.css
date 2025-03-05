@@ -58,7 +58,7 @@ h2 {
 
 /* Footer Styles */
 footer {
-    background-color: #4e773f; /* Matching footer color */
+    background-color: hsl(31, 31%, 36%); /* Matching footer color */
     color: white;
     padding: 10px 0;
     text-align: center;
