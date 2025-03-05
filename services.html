@@ -1,34 +1,63 @@
 <!-- services.html -->
-<section id="services">
-    <h2>My Services</h2>
-    
-    <!-- Card 1 -->
-    <div class="service-card">
-        <h3>Service 1</h3>
-        <p class="service-summary">Brief summary about Service 1...</p>
-        <button class="service-button" onclick="toggleServiceInfo(1)">More Info</button>
-        <div class="service-info" id="service-info-1">
-            <p>Detailed information about Service 1...</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris Isley - Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Navigation (Same as index.html) -->
+    <header>
+        <h1>Paris Isley</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>My Services</h2>
+        <!-- Cards with More Info functionality (as described earlier) -->
+        <div class="service-card">
+            <h3>Service 1</h3>
+            <p class="service-summary">Brief summary about Service 1...</p>
+            <button class="service-button" onclick="toggleServiceInfo(1)">More Info</button>
+            <div class="service-info" id="service-info-1">
+                <p>Detailed information about Service 1...</p>
+            </div>
         </div>
-    </div>
-    
-    <!-- Card 2 -->
-    <div class="service-card">
-        <h3>Service 2</h3>
-        <p class="service-summary">Brief summary about Service 2...</p>
-        <button class="service-button" onclick="toggleServiceInfo(2)">More Info</button>
-        <div class="service-info" id="service-info-2">
-            <p>Detailed information about Service 2...</p>
+
+        <div class="service-card">
+            <h3>Service 2</h3>
+            <p class="service-summary">Brief summary about Service 2...</p>
+            <button class="service-button" onclick="toggleServiceInfo(2)">More Info</button>
+            <div class="service-info" id="service-info-2">
+                <p>Detailed information about Service 2...</p>
+            </div>
         </div>
-    </div>
-    
-    <!-- Card 3 -->
-    <div class="service-card">
-        <h3>Service 3</h3>
-        <p class="service-summary">Brief summary about Service 3...</p>
-        <button class="service-button" onclick="toggleServiceInfo(3)">More Info</button>
-        <div class="service-info" id="service-info-3">
-            <p>Detailed information about Service 3...</p>
+
+        <div class="service-card">
+            <h3>Service 3</h3>
+            <p class="service-summary">Brief summary about Service 3...</p>
+            <button class="service-button" onclick="toggleServiceInfo(3)">More Info</button>
+            <div class="service-info" id="service-info-3">
+                <p>Detailed information about Service 3...</p>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+    <footer>
+        <p>&copy; 2025 Paris Isley. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
