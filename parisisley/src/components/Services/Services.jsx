@@ -1,5 +1,5 @@
 import React from 'react';
-// import ServiceCard from '../ServiceCard';
+import ServiceCard from '../ServiceCard';
 import './Services.css'
 
 function Services() {
@@ -21,12 +21,13 @@ function Services() {
     <section id="services">
       <h2>My Services</h2>
       <div className="service-cards">
-        {/* {services.map((service, index) => (
+        {services.map((service, index) => (
           <ServiceCard key={index} service={service} />
-        ))} */}
+        ))}
       </div>
     </section>
   );
+  
 }
 
 export default Services;
