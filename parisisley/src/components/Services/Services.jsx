@@ -2,16 +2,16 @@ import React from 'react';
 import ServiceCard from '../ServiceCard'; // Import from one level up
 import './Services.css';
 import webdesign from '../images/webdesign.png'; // Ensure the path is correct
-
+import printing from '../images/3Dprinting.png';
 function Services() {
   const services = [
     {
-      title: 'Web Development',
+      title: '3D Printing',
       description: 'Building modern, responsive websites.',
-      imageUrl: '/path/to/image1.jpg',
+      imageUrl: printing,
     },
     {
-      title: 'Graphic Design',
+      title: 'Home & Office IT Services',
       description: 'Designing eye-catching visuals.',
       imageUrl: '/path/to/image2.jpg',
     },
@@ -21,7 +21,7 @@ function Services() {
       imageUrl: '/path/to/image2.jpg',
     },
     {
-      title: 'Web Design',
+      title: 'Web Development',
       description: 'Designing eye-catching visuals.',
       imageUrl: webdesign, // Store the image path as a property
     },
