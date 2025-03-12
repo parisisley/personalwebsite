@@ -3,6 +3,7 @@ import ServiceCard from '../ServiceCard'; // Import from one level up
 import './Services.css';
 import webdesign from '../images/webdesign.png'; // Ensure the path is correct
 import printing from '../images/3Dprinting.png';
+import it from '../images/it.png';
 function Services() {
   const services = [
     {
@@ -13,7 +14,7 @@ function Services() {
     {
       title: 'Home & Office IT Services',
       description: 'Designing eye-catching visuals.',
-      imageUrl: '/path/to/image2.jpg',
+      imageUrl: it,
     },
     {
       title: 'Graphic Design',
