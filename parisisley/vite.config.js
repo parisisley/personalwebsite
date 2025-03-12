@@ -1,9 +1,9 @@
 export default {
   build: {
-    outDir: 'dist',  // Output directory
-    assetsDir: 'assets',  // Directory for static assets (images, fonts, etc.)
+    outDir: "dist",
+    assetsDir: "assets",
     rollupOptions: {
-      input: 'index.html', // Ensure proper entry file
+      input: "index.html",
     },
   },
 };
