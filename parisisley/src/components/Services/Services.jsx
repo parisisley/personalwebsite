@@ -23,7 +23,7 @@ function Services() {
     },
     {
       title: 'Web Development',
-      description: 'Designing eye-catching visuals.',
+      description: 'Build modern, responsive websites.',
       imageUrl: webdesign, // Store the image path as a property
     },
     {
