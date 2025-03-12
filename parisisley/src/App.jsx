@@ -1,20 +1,10 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar";
-import Home from './pages/Home'; // Example page
-import Projects from './pages/Projects'; // Example page
-import Services from './pages/Services'; // Example page
-import Contact from './pages/Contact'; // Example page
-import './styles.css'; 
-import './header.css';  
-import './navbar.css';
-import './home.css';
-import './footer.css';
-import './services.css';
-import './servicecard.css';
-import './app.css';
-import './index.css';
-
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
