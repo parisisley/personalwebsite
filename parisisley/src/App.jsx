@@ -5,6 +5,16 @@ import Home from './pages/Home'; // Example page
 import Projects from './pages/Projects'; // Example page
 import Services from './pages/Services'; // Example page
 import Contact from './pages/Contact'; // Example page
+import './styles.css'; 
+import './header.css';  
+import './navbar.css';
+import './home.css';
+import './footer.css';
+import './services.css';
+import './servicecard.css';
+import './app.css';
+import './index.css';
+
 
 function App() {
   return (
