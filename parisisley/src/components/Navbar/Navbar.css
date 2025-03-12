@@ -39,12 +39,12 @@
   display: none;
 }
 
-.close-menu {
+.close-menu{
   display: none;
 }
 
-.eiffel-tower {
-  width: 25px;
+.eiffel-tower{
+  width: 50px;
   color: white;
   background-color: white;
 }
@@ -73,17 +73,18 @@
     right: 0;
   }
 
-  .close-menu {
-    display: block;
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    font-size: 1.8rem;
-    cursor: pointer;
-    color: white;
-  }
+  /* Close button inside mobile menu */
+.close-menu {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
 
-  .close-menu:hover {
-    color: #f39c12;
-  }
+.close-menu:hover {
+  color: #f39c12;
+}
+
 }
