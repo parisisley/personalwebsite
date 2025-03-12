@@ -1,6 +1,6 @@
 import React from 'react';
-import ServiceCard from '../ServiceCard';
-import './Services.css'
+import ServiceCard from '../ServiceCard'; // Import from one level up
+import './Services.css';
 
 function Services() {
   const services = [
@@ -27,7 +27,6 @@ function Services() {
       </div>
     </section>
   );
-  
 }
 
 export default Services;
