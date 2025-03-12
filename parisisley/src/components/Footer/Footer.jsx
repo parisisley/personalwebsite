@@ -14,7 +14,7 @@ function Footer() {
         <a href="https://github.com/parisisley" className="link">
           <FaGithub className="icon" />
         </a>
-        <a href="www.linkedin.com/in/paris-isley" className="link">
+        <a href="https://www.linkedin.com/in/paris-isley/" className="link">
           <FaLinkedin className="icon" />
         </a>
         <a href="https://www.instagram.com/paris.isley" className="link">
