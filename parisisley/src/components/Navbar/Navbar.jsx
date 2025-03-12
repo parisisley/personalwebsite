@@ -10,21 +10,21 @@ function Navbar() {
     <nav className="navbar">
       <div className="logo">
         <Link to="/">
-          <img src={eiffel} alt="Eiffel Tower" className="eiffel-tower" />
+          <img src={eiffel} alt="eiffel-tower" className="eiffel-tower" />
         </Link>
       </div>
       <ul className={isOpen ? "nav-menu open" : "nav-menu"}>
         <li>
-          <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
+          <a href="/">Home</a>
         </li>
         <li>
-          <Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
+          <a href="#">Projects</a>
         </li>
         <li>
-          <Link to="/services" onClick={() => setIsOpen(false)}>Services</Link>
+          <a href="/services">Services</a>
         </li>
         <li>
-          <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
+          <a href="#">Contact</a>
         </li>
         <div className="close-menu" onClick={() => setIsOpen(false)}>
           ✖
