@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import eiffel from "../images/eiffel-tower.png";
-import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,23 +9,22 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <Link to>
-
+        <Link to="/">
+          <img src={eiffel} alt="Eiffel Tower" className="eiffel-tower" />
         </Link>
-        <img src={eiffel} alt="eiffel-tower" className="eiffel-tower"></img>
       </div>
       <ul className={isOpen ? "nav-menu open" : "nav-menu"}>
         <li>
-          <a href="/">Home</a>
+          <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
         </li>
         <li>
-          <a href="#">Projects</a>
+          <Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
         </li>
         <li>
-          <a href="/services">Services</a>
+          <Link to="/services" onClick={() => setIsOpen(false)}>Services</Link>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
         </li>
         <div className="close-menu" onClick={() => setIsOpen(false)}>
           ✖
