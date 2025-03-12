@@ -1,5 +1,5 @@
-import React from 'react';
-import './Services.css'; // If styles are shared, otherwise create a separate ServiceCard.css
+import React from "react";
+import "./ServiceCard.css"; // Import the new styles
 
 const ServiceCard = ({ service }) => {
   return (
