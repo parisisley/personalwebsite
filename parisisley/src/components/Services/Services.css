@@ -36,10 +36,13 @@
 
 /* Service Image */
 .service-card img {
-  width: 100%;
+  width: 80%; /* Adjust size as needed */
+  max-width: 100px; /* Limit max width */
+  display: block; /* Allows margin auto to work */
+  margin: 0 auto 15px auto; /* Centers horizontally */
   border-radius: 10px;
-  margin-bottom: 15px;
 }
+
 
 /* Service Title */
 .service-card h3 {
@@ -48,4 +51,5 @@
   color: #2c3e50;
 }
 
-/* Service Descriptio
+/* Service Description
+
